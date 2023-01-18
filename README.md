@@ -1,4 +1,4 @@
-# Cardiovascular Heart-desease-Prediction:
+
 <h1 align="center"> 
 Heart-Disease-Prediction-Classification </h1>
 <h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> AlmaBetter </a> </h5>
