@@ -1,12 +1,16 @@
 
 <h1 align="center"> 
 Heart-Disease-Prediction-Classification </h1>
-<h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> AlmaBetter </a> </h5>
+
 
 <p align="center"> 
 
 	
-![image](https://user-images.githubusercontent.com/114068950/212884044-52745e1e-bd6b-4a36-a247-67b4d6c35036.png)
+![image](https://user-images.githubusercontent.com/114068681/214820174-b716384d-afca-4307-85c1-b69ff6cd4ee2.png)
+
+
+	
+<h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> AlmaBetter </a> </h5>
 
 <h2> :floppy_disk: Project Files Description</h2>
 
@@ -32,7 +36,14 @@ Cardiovascular Diseases (CVDs) proven to be the major reason for a large number 
 <h2> :book: Problem Statement</h2>
 The dataset acquired contain various information related to human body health as well as body condition. The information incorporates the data containing various classification based values as explain in the dataset. The main purpose of this project is to understand the dataset, visualize and prepare a classification based model to predict whether a person is prone to 10 year coronary heart disease or not. 
 
+* Which classifier technique is giving best accuracy?
+
+* What are the important features to be considered for CHD prediction?
+
 <h2> :book: Data Summery</h2>
+
+![image](https://user-images.githubusercontent.com/114068681/214820810-2680374c-03d8-4102-877d-312b410a3a01.png)
+
 Illustration of the some major data contained is given below:
 
 * Sex : male / female ("M" or "F") 
@@ -109,7 +120,30 @@ Various allgrithms used are as follows:
 * XGBoost Classifier
 * Logistic Regression
 
+# :book: Result
+
+![image](https://user-images.githubusercontent.com/114068681/214821853-43de4075-8f30-4221-8b29-69c1e8111dcf.png)
+
+* Amongst all XGBoost classifier and Logistic regression gives best accuracy score of 84.31 and 84.54 respectively. 
+
+![image](https://user-images.githubusercontent.com/114068681/214822005-ace7351f-6c0d-434f-91be-b34e3eb16ebb.png)
+
+* After analysis, most dangerous factor for CHD is prevalent stroke followed by smoking , diabetees, BP and hypertension. Whereas sex category and heartrate is least bothered factor
+
 # :book: Conclusion
 
 A cardiovascular risk prediction model is being prepared with the help of various classification techniques such as Logistic regression, RandomForest technique, XGBoost, Decision tree. The designed model can predict the 10 year risk of Coronary Heart Disease (CHD) for the individual. It is completely based on the previous and present health as well as medical condition.
+
+# 📜 Credits
+Samata Parulekar | Aspiring Data Scientist
+
+linkedin.com/in/samatap
+
+# 📚 References
+
+* GeekforGeeks (https://www.geeksforgeeks.org/removing-stop-words-nltk-python/?ref=lbp)
+
+* Kaggle (https://www.kaggle.com/)
+
+* Analytics Vidya
 
