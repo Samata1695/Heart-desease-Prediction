@@ -4,6 +4,7 @@ Heart-Disease-Prediction-Classification </h1>
 <h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> AlmaBetter </a> </h5>
 
 <p align="center"> 
+
 	
 ![image](https://user-images.githubusercontent.com/114068950/212884044-52745e1e-bd6b-4a36-a247-67b4d6c35036.png)
 
@@ -34,38 +35,37 @@ The dataset acquired contain various information related to human body health as
 <h2> :book: Data Summery</h2>
 Illustration of the some major data contained is given below:
 
-•Sex : male / female ("M" or "F") 
+* Sex : male / female ("M" or "F") 
 
-•Age : Age of the person 
+* Age : Age of the person 
 
-•Education : Education level of the person 
+* Education : Education level of the person 
 
+* is_smoking : whether the person is smoking or not (YES  or  No) 
 
-•is_smoking : whether the person is smoking or not (YES  or  No) 
+* CigsPerDay: No. of cigarettes person used to have per day.
 
-•CigsPerDay: No. of cigarettes person used to have per day.
+* BPMeds: whether the person taking medicine for Blood Pressure or not
 
-•BPMeds: whether the person taking medicine for Blood Pressure or not
+* prevalentstroke: whether the person had heart stroke previously or not
 
-•prevalentstroke: whether the person had heart stroke previously or not
+* prevalenthyp: whether the person having prevalent hypertension issue or not
 
-•prevalenthyp: whether the person having prevalent hypertension issue or not
+* Diabetes: whether patient having diabetic or not
 
-•Diabetes: whether patient having diabetic or not
+* TotChol: total cholesterol level in the body of person
 
-•TotChol: total cholesterol level in the body of person
+* sysBP: systolic blood pressure of person
 
-•sysBP: systolic blood pressure of person
+* diaBP: diastolic blood pressure of person
 
-•diaBP: diastolic blood pressure of person
+* BMI: Body Mass Index of persons
 
-•BMI: Body Mass Index of persons
+* HeartRate: heart rate of the person
 
-•HeartRate: heart rate of the person
+* Glucose : glucose level of the person
 
-•Glucose : glucose level of the person
-
-•tenyearchd : 10-year risk of coronary heart disease CHD 
+* tenyearchd : 10-year risk of coronary heart disease CHD 
 
 
 
@@ -76,20 +76,20 @@ Illustration of the some major data contained is given below:
 # :book:Approach:
 
 
-1] Raw Data Collection:
+**1] Raw Data Collection:**
 The data collected from the source contains various information useful for the  analysis as well as for visualization purpose. There two ways one can utilize the data. By importing the data file into the system and then accessing by writing code for it or by directly mounting the drive.  
 
-2] Data Processing and Feature Engineering:
+**2] Data Processing and Feature Engineering:**
 
-i)Dealing with missing values:
+* Dealing with missing values:
 
 It checks whether our data contains any missing value is there or not, then it will replace it with the zero. In this article some column has missing values, so we will replace them by zero.
 
-ii)Checking for duplicates
+* Checking for duplicates
 
 The given dataset does not contain any duplicate values
 
-iii)Removing unnecessary features:
+* Removing unnecessary features:
 
 In the given model some the features are not relevant to 10-Year risk of CHD. The columns are education, id. Hence, we have dropped these columns for further analysis.
 
@@ -97,17 +97,17 @@ In the given model some the features are not relevant to 10-Year risk of CHD. Th
 
 # :book:Steps involved:
 
-1] Exploratory data analysis: 
+**1] Exploratory data analysis:**
 Here, we wish to gain important statistical insights from our data and analyze the distribution of various attributes, correlations between attributes and target variables, and important quotas and proportions of categorical attributes.
 
-2]Training split of data
+**2] Training split of data:**
 We have considered the train size of the data to be 85% of total data set whereas test set will be covered with 5% of data
 Various allgrithms used are as follows:
 
-A) DecisionTree Classifier
-B) RandomForestClassifier
-C) XGBoost Classifier
-D) Logistic Regression
+* DecisionTree Classifier
+* RandomForestClassifier
+* XGBoost Classifier
+* Logistic Regression
 
 # :book: Conclusion
 
